@@ -1,11 +1,18 @@
 [![NPM](https://nodei.co/npm/node-read.png?downloads=true)](https://nodei.co/npm/node-read/)
 # Node-read
 
+`@bndr/node-read` but returning the content as a cheerio object for further modifications
+
 Get Readable Content from any page. Based on Arc90's readability project.
 
 ## Features
 
 1. Blazingly Fast. This project is based on Cheerio engine, which is 8x times faster than JSDOM.
+
+## Dependencies
+
+- `cheerio`
+- `fetch`
 
 ## Why not Node-readability
 
